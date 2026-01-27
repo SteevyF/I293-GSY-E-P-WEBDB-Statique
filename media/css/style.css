@@ -9,4 +9,17 @@ p1
 #MainImage
 {
     background-image: url(/media/img/fixed-point-wallpapers-1920x1080.webp);
+    color: azure;
+    
+}
+header
+{
+    background-color: rgb(44, 44, 44);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
