@@ -48,3 +48,17 @@ h2
 {
     color:white;
 }
+#spoilertest
+{
+    background: black;
+    color:transparent;
+    cursor:help;
+    user-select: none;
+    transition:  background-color 0.3s ease 0.2s, color 0.2s ease 0.25s;
+}
+#spoilertest:hover,
+#spoilertest:focus
+{
+    background: transparent;
+    color:white;
+}
