@@ -5,10 +5,12 @@ body
 #body-histoire
 {
     background-image:url(/media/img/gameCG/BG_Inner.png);
-    background-size:contain;
+    background-size:cover;
     position:sticky;
     top:0;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 #a1
 {
@@ -57,7 +59,15 @@ p1
 {
     color:white
 }
+h1
+{
+    color:white;
+}
 h2
+{
+    color:white;
+}
+h3
 {
     color:white;
 }
@@ -87,9 +97,10 @@ h2
 }
 #histoire-img
 {
-    width: 30%;
+    width: 50%;
     height: auto;
-    margin:30px
+    margin:30px;
+    border-radius: 3px;
 }
 #histoire-bloc-row
 {
@@ -103,4 +114,30 @@ h2
     display:flex;
     align-items: center;
     flex-direction: column;
+}
+main
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: rgba(59, 59, 59, 0.877);
+    border-radius: 5px;
+}
+footer
+{
+    background-color: rgb(44, 44, 44);
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    color: aliceblue;
+}
+
+@media screen and (width <= 768px){
+    #histoire-bloc-row{flex-direction: column;}
 }
