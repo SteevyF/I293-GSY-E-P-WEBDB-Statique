@@ -5,9 +5,10 @@ body
 #body-histoire
 {
     background-image:url(/media/img/gameCG/BG_Inner.png);
-    background-size: contain;
+    background-size:contain;
     position:sticky;
     top:0;
+    background-repeat: no-repeat;
 }
 #a1
 {
@@ -25,10 +26,10 @@ body
     color: azure;
     background-repeat: no-repeat;
     background-size:contain;
-    display:flex;
     justify-content:center;
     max-width: 100%;
-    height: 100dvh;
+    height: fit-content;
+    background-position: center;
 
 }
 #MainImageText
