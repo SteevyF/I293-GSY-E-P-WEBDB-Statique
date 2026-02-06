@@ -12,6 +12,16 @@ body
     background-attachment: fixed;
     background-position: center;
 }
+#body-personnage
+{
+    background-image:url(/media/img/gameCG/BG_Inner.png);
+    background-size:cover;
+    position:sticky;
+    top:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
 #a1
 {
     color: #FFBB00;
@@ -41,6 +51,7 @@ body
     text-align: center;
     line-height: 6;
 }
+
 header
 {
     background-color: rgb(44, 44, 44);
@@ -55,33 +66,40 @@ header
     top: 0;
     align-items: center;
 }
+
+
 p1
 {
     color:white
 }
+
 h1
 {
     color:white;
 }
+
 h2
 {
     color:white;
 }
+
 h3
 {
     color:white;
 }
+
+
 #spoilertest
 {
-    background: black;
-    color:transparent;
+    filter: blur(0.4rem);
     cursor:help;
     user-select: none;
-    transition:  background-color 0.3s ease 0.2s, color 0.2s ease 0.25s;
+    transition:  filter 0.3s ease-in-out;
 }
 #spoilertest:hover,
 #spoilertest:focus
 {
+    filter: blur(0rem);
     background: transparent;
     color:white;
 }
@@ -115,7 +133,31 @@ h3
     align-items: center;
     flex-direction: column;
 }
-main
+#personnage-container-column
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#personnage-container-row
+{
+    display:flex;
+    align-items: center;
+    margin-left:30px;
+    margin-right:30px;
+}
+#personnage-img-container
+{
+    border-style: solid;
+    border-color: #FFBB00;
+    background-color: #FFBB00;
+    max-width: fit-content;
+    width:50%;
+    align-items: center;
+    text-align: center;
+    justify-self: right;
+}
+#main-index
 {
     margin-left: 10%;
     margin-right: 10%;
@@ -123,6 +165,11 @@ main
     padding-right:10px;
     background-color: rgba(59, 59, 59, 0.877);
     border-radius: 5px;
+}
+#main-personnage
+{
+
+    background-color: rgba(59, 59, 59, 0.877);
 }
 footer
 {
@@ -135,9 +182,18 @@ footer
     padding-left: 25px;
     padding-right: 25px;
     align-items: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+}
+
+legend
+{
+    color: white;
 }
 
 @media screen and (width <= 768px){
     #histoire-bloc-row{flex-direction: column;}
+}
+
+@media screen and (width <= 768px){
+    #personnage-container-row{flex-direction: column;}
 }
