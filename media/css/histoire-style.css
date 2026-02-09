@@ -1,0 +1,34 @@
+#histoire-img
+{
+    width: 50%;
+    height: auto;
+    margin:30px;
+    border-radius: 3px;
+}
+#histoire-bloc-row
+{
+    display:flex;
+    align-items: center;
+    margin-left:30px;
+    margin-right:30px;
+}
+#histoire-bloc-column
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (width <= 768px){
+    #histoire-bloc-row{flex-direction: column;}
+}
+body
+{
+    background-image:url(/media/img/gameCG/BG_Inner.png);
+    background-size:cover;
+    position:sticky;
+    top:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}

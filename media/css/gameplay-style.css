@@ -1,0 +1,10 @@
+body
+{
+        background-image:url(/media/img/gameCG/BG_Inner.png);
+    background-size:cover;
+    position:sticky;
+    top:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}

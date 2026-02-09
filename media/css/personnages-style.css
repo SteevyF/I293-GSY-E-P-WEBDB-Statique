@@ -1,0 +1,43 @@
+#body-personnage
+{
+    background-image:url(/media/img/gameCG/BG_Inner.png);
+    background-size:cover;
+    position:sticky;
+    top:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#personnage-container-column
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#personnage-container-row
+{
+    display:flex;
+    align-items: center;
+    margin-left:30px;
+    margin-right:30px;
+}
+#personnage-img-container
+{
+    border-style: solid;
+    border-color: #FFBB00;
+    background-color: #FFBB00;
+    max-width: fit-content;
+    width:50%;
+    align-items: center;
+    text-align: center;
+    justify-self: right;
+    max-height: 20%;
+    max-width: 20%;
+    min-height: 20%;
+    min-width: 20%;
+}
+#main-personnage
+{
+
+    background-color: rgba(59, 59, 59, 0.877);
+}

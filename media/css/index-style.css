@@ -1,0 +1,18 @@
+body
+{
+    background-size:cover;
+    position:relative;
+    top:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 1;
+}
+video#bg-video {
+   background-position: center center;
+    background-size: contain;
+}
+main
+{
+    z-index: 1;
+}
