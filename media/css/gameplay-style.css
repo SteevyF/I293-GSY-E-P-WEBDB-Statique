@@ -8,3 +8,14 @@ body
     background-attachment: fixed;
     background-position: center;
 }
+#gameplay-container-row
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+#gameplay-container-column
+{
+    display:flex;
+    flex-direction: column;
+}
