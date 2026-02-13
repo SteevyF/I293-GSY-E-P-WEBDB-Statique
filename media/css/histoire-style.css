@@ -1,6 +1,6 @@
 #histoire-img
 {
-    width: 50%;
+    width: 30%;
     height: auto;
     margin:30px;
     border-radius: 3px;
@@ -31,4 +31,15 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    margin: 0%;
+}
+main
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: rgba(124, 124, 124, 0.178);
+    border-radius: 5px;
+    padding-top: 2px;
 }

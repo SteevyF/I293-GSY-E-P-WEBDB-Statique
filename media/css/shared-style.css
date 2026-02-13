@@ -43,6 +43,7 @@ header
     position:sticky;
     top: 0;
     align-items: center;
+
 }
 
 
@@ -101,6 +102,7 @@ h3
     padding-right:10px;
     background-color: rgba(59, 59, 59, 0.877);
     border-radius: 5px;
+    
 }
 
 footer

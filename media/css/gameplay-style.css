@@ -1,12 +1,13 @@
 body
 {
-        background-image:url(/media/img/gameCG/BG_Inner.png);
+    background-image:url(/media/img/gameCG/CG10-4-1.png);
     background-size:cover;
     position:sticky;
     top:0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center;   
+    margin: 0%;
 }
 #gameplay-container-row
 {
@@ -18,4 +19,14 @@ body
 {
     display:flex;
     flex-direction: column;
+}
+main
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: rgba(59, 59, 59, 0.877);
+    border-radius: 5px;
+    padding-top: 2px;
 }
