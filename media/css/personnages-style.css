@@ -46,9 +46,16 @@
     padding-right:10px;
     border-radius: 5px;
     padding-bottom: 20vh;
+    padding-top: 5%;
 
 }
 footer
 {
     margin-top: auto;
+}
+#a3
+{
+    color:#FFBB00;
+    text-decoration:none;
+    text-shadow:#f3e73c 0px 0px 6px;
 }
