@@ -1,6 +1,7 @@
 #histoire-img
 {
     width: 30%;
+    min-width: 30%;
     height: auto;
     margin:30px;
     border-radius: 3px;
