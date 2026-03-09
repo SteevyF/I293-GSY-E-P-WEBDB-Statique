@@ -22,6 +22,7 @@
 
 @media screen and (width <= 768px){
     #histoire-bloc-row{flex-direction: column;}
+    #histoire-img{width:100%;}
 }
 body
 {

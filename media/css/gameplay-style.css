@@ -30,3 +30,13 @@ main
     border-radius: 5px;
     padding-top: 2px;
 }
+@media screen and (width <= 768px){
+    #gameplay-container-row{flex-direction: column;}
+    #gameplay-img{width:100%;}
+}
+.gameplay-icon{
+    max-width: 30%;
+}
+.gameplay-img{
+    max-width: 50%;
+}
