@@ -1,0 +1,29 @@
+#body-contact
+{
+    background-image:url(/media/img/gameCG/ss_da7f47fdc026011d52bb3463e7d939c78e4d0439.jpg);
+    background-size:cover;
+    position:sticky;
+    top:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#main-contact
+{
+
+    background-color: rgba(59, 59, 59, 0.877);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 5px;
+    padding-bottom: 20vh;
+    padding-top: 5%;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+p{
+    color: white;
+}
