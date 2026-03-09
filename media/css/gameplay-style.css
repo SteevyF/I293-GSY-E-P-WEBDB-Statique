@@ -1,6 +1,7 @@
 body
 {
     background-image:url(/media/img/gameCG/CG10-4-1.png);
+    background-color: rgb(39,31,22);
     background-size:cover;
     position:sticky;
     top:0;

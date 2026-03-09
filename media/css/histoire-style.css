@@ -27,6 +27,7 @@
 body
 {
     background-image:url(/media/img/gameCG/BG_Inner.png);
+    background-color:rgb(10,10,10);
     background-size:cover;
     position:sticky;
     top:0;
