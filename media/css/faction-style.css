@@ -1,0 +1,37 @@
+.Faction-Friendly-img-container
+{
+    border-style: solid;
+    border-color: #FFBB00;
+    background-color: #FFBB00c5;
+    max-width: fit-content;
+    width:50%;
+    align-items: center;
+    text-align: center;
+    justify-self: right;
+    max-height: 20%;
+    max-width: 20%;
+    min-height: 20%;
+    min-width: 20%;
+}
+.Faction-Hostile-img-container
+{
+    border-style: solid;
+    border-color: #ff0000;
+    background-color: #ff0000c5;
+    max-width: fit-content;
+    width:50%;
+    align-items: center;
+    text-align: center;
+    justify-self: right;
+    max-height: 20%;
+    max-width: 20%;
+    min-height: 20%;
+    min-width: 20%;
+}
+@media screen and (width <= 768px){
+    .Faction-Friendly-img-container{max-width:100%;margin-top: 10%;}
+    .Faction-Hostile-img-container{max-width:100%;margin-top: 10%;}
+}
+.Faction-Friendly-img-container,.Faction-Hostile-img-container{
+    margin-left: 2%;
+}

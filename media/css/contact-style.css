@@ -15,8 +15,8 @@
     background-color: rgba(59, 59, 59, 0.877);
     margin-left: 10%;
     margin-right: 10%;
-    padding-left:200px;
-    padding-right:200px;
+    padding-left:100px;
+    padding-right:100px;
     border-radius: 5px;
     padding-bottom: 20vh;
     padding-top: 5%;
@@ -27,4 +27,7 @@ form{
 }
 p{
     color: white;
+}
+h1{
+    text-align: center;
 }
